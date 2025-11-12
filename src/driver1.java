@@ -9,8 +9,8 @@ public class driver1 {
         saver1.modifyInterestRate(0.04);
         saver2.modifyInterestRate(0.04);
 
-        saver1.calculateMonthlyInterest(saver1.getAnnualInterestRate(), saver1.getsavingsBalance());
-        saver2.calculateMonthlyInterest(saver1.getAnnualInterestRate(), saver1.getsavingsBalance());
+        saver1.calculateMonthlyInterest();
+        saver2.calculateMonthlyInterest();
 
         System.out.printf("saver1's balance one month with 4%% interest: %.2f\n",saver1.getsavingsBalance());
         System.out.printf("saver2's balance one month with 4%% interest: %.2f\n\n", saver2.getsavingsBalance());
@@ -18,8 +18,8 @@ public class driver1 {
         saver1.modifyInterestRate(0.05);
         saver2.modifyInterestRate(0.05);
 
-        saver1.calculateMonthlyInterest(saver1.getAnnualInterestRate(), saver1.getsavingsBalance());
-        saver2.calculateMonthlyInterest(saver1.getAnnualInterestRate(), saver1.getsavingsBalance());
+        saver1.calculateMonthlyInterest();
+        saver2.calculateMonthlyInterest();
 
         System.out.printf("saver1's balance one month with 5%% interest: %.2f\n",saver1.getsavingsBalance());
         System.out.printf("saver2's balance one month with 5%% interest: %.2f", saver2.getsavingsBalance());

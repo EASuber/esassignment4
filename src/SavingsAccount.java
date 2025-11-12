@@ -40,7 +40,7 @@ public class SavingsAccount {
 
 
     //extra methods
-    public void calculateMonthlyInterest(double annualInterestRate, double savingsBalance){ //calculate method
+    public void calculateMonthlyInterest(){ //calculate method
 
         this.savingsBalance += savingsBalance * (annualInterestRate / 12);
 

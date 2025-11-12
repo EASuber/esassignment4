@@ -5,7 +5,7 @@ public class driver2 {
         SavingsAccount saver1 = new SpecialSavings(0.04,2000.00);
         SavingsAccount saver2 = new SpecialSavings(0.04, 3000.00);
 
-        saver1.calculateMonthlyInterest(saver1.getAnnualInterestRate(), saver1.getsavingsBalance());
+        saver1.calculateMonthlyInterest();
 
         System.out.printf("saver1 Balance: %.2f\n", saver1.getsavingsBalance());
 
@@ -14,31 +14,31 @@ public class driver2 {
 
         System.out.printf("saver1 Balance: %.2f\n", saver1.getsavingsBalance());
 
-        saver1.calculateMonthlyInterest(saver1.getAnnualInterestRate(), saver1.getsavingsBalance());
+        saver1.calculateMonthlyInterest();
 
         System.out.printf("saver1 Balance: %.2f\n", saver1.getsavingsBalance());
 
         saver1.withdraw(8000);
 
-        saver1.calculateMonthlyInterest(saver1.getAnnualInterestRate(), saver1.getsavingsBalance());
+        saver1.calculateMonthlyInterest();
 
         System.out.printf("saver1 Balance: %.2f\n\n", saver1.getsavingsBalance());
 
 
 
-        saver2.calculateMonthlyInterest(saver2.getAnnualInterestRate(), saver2.getsavingsBalance());
+        saver2.calculateMonthlyInterest();
 
         System.out.printf("saver2 Balance: %.2f\n", saver2.getsavingsBalance());
 
         saver2.withdraw(2000);
 
-        saver2.calculateMonthlyInterest(saver2.getAnnualInterestRate(), saver2.getsavingsBalance());
+        saver2.calculateMonthlyInterest();
 
         System.out.printf("saver2 Balance: %.2f\n", saver2.getsavingsBalance());
 
         saver2.deposit(10000);
 
-        saver2.calculateMonthlyInterest(saver2.getAnnualInterestRate(), saver2.getsavingsBalance());
+        saver2.calculateMonthlyInterest();
 
         System.out.printf("saver2 Balance: %.2f\n", saver2.getsavingsBalance());
 
